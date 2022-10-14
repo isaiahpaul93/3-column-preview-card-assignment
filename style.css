@@ -1,0 +1,198 @@
+*{
+    margin: 00px;
+    padding: 00px;
+    box-sizing: border-box;
+}
+article{
+    border-radius: 20px;
+}
+.container{
+    display: flex;
+    margin: auto 200px;
+    margin-top: 100px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+body {
+    background-color:lightgrey;
+    font-size: 15px;
+}
+.h1{
+    font-family: 'Lexend Deca', sans-serif;
+    color:  hsla(0, 0%, 100%, 0.75);
+    padding-left: 30px;
+}
+img{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+p{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 200px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.first{
+    background:  hsl(31, 77%, 52%);
+}
+.second{
+    background:  hsl(184, 100%, 22%);
+}
+.third{
+    background: hsl(179, 100%, 13%);
+}
+button{
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: white;
+    margin-left: 30px;
+}
+.b1{
+    color: hsl(31, 77%, 52%);
+}
+.b2{
+    color: hsl(184, 100%, 22%) ;
+}
+.b3{
+    color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+    background: darkblue;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+        
+        
+    }
+    
+    body{
+        background-color: hsl(0, 0%, 95%);
+        width: 375px;
+        margin: 0 auto;
+        overflow: visible;
+    
+    }
+    p.text{
+        font-size: 15px;
+        padding-right: 15px;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        line-height: 1.5rem;
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    
+    /* .third{
+    padding-right: 90px;
+    } */
+    
+    main{
+        width: 375px;
+    overflow: visible;
+    background-color: hsl(0, 0%, 95%);
+    
+    }
+    
+    
+    .container{
+        margin: 0 auto;
+        width: 310px;
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(179, 100%, 13%);
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        
+    
+    }
+    
+    .flex-sedans{
+        width: 310px;
+        height: 390px;
+        background-color: hsl(31, 77%, 52%);
+    
+    }
+    
+    .flex-suv {
+        width: 310px;
+        height: 390px;
+        background-color: hsl(184, 100%, 22%);
+    }
+    
+    .flex-luxury {
+        width: 310px;
+        height: 390px;
+        background-color: hsl(179, 100%, 13%);
+    }
+    
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: hsl(0, 0%, 95%);
+        margin-bottom: 20px;
+    }
+    
+    .wrapper{
+        margin: 35px;
+    }
+    
+    h2{
+        margin: 20px 0;
+        font-family: 'Big Shoulders Display', cursive;
+        font-weight: 700;
+        color: hsl(0, 0%, 95%);
+        font-size: 3rem;
+    }
+    
+    button.btn{
+        font-size: 17px;
+        padding: 8px 19px;
+        border-radius: 20px;
+        border: 1px solid hsl(0, 0%, 95%);
+        background-color: hsl(0, 0%, 95%);
+        font-weight: 400;
+        margin-top: 20px;
+        margin-bottom: 64px;
+    }
+    
+    button.btn:hover {
+        background: darkblue;
+        color: #fff;
+    }
+    
+    button.first{
+        color: hsl(31, 77%, 52%);
+    }
+    
+    button.second {
+        color: hsl(184, 100%, 22%);
+    }
+    
+    button.third {
+        color: hsl(179, 100%, 13%);
+    }
+    
+    footer{
+        color:hsl(0, 0%, 95%) ;
+    }
+    
+    
+    
+    .attribution a {
+        color: hsl(0, 0%, 95%);
+    }
+    
+}
